@@ -4,9 +4,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Tugas_Test_EID</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Tugas_Test_EID.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/sweetalert2/dist/sweetalert2.css">
+    <link rel="stylesheet" href="~/bootstrap-icons/font/bootstrap-icons.css" />
+
+    <script src="~/jquery/dist/jquery.js"></script>
+    <script src="~/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="~/sweetalert2/dist/sweetalert2.js"></script>
 </head>
 <body>
     <header>
@@ -41,8 +47,6 @@
             &copy; 2024 - Tugas_Test_EID - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>

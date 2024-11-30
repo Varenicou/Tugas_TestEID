@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Tugas_Test_EID.props" />
+</Project>

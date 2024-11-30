@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+<body class="bg-light align-items-center vh-100">
+    <div class="d-flex justify-content-center">
+        <div class="card p-4 shadow" style="width: 22rem;">
+            <h4 class="text-center mb-4">Login</h4>
+            <form>
+                <div class="mb-3">
+                    <label for="username" class="form-label">Username</label>
+                    <input type="username" class="form-control" id="username" placeholder="Enter your username" required>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button type="button" onclick="handshake_login()" class="btn btn-primary form-control">Login</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" onclick="handshake_reg()" id="btn_register" class="btn btn-outline-primary form-control">
+                            Register
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+<script src="/js/cl/login.js" asp-asp-append-version="true"></script>

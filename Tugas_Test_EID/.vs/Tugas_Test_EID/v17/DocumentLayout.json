@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Interview\\TugasASPNET_PID\\Tugas_TestEID\\Tugas_Test_EID\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C539B584-DC46-4C71-A6CF-0F7C96D3C2FB}|Tugas_Test_EID\\Tugas_Test_EID.csproj|e:\\interview\\tugasaspnet_pid\\tugas_testeid\\tugas_test_eid\\tugas_test_eid\\controllers\\api\\api_inventaris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C539B584-DC46-4C71-A6CF-0F7C96D3C2FB}|Tugas_Test_EID\\Tugas_Test_EID.csproj|solutionrelative:tugas_test_eid\\controllers\\api\\api_inventaris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C539B584-DC46-4C71-A6CF-0F7C96D3C2FB}|Tugas_Test_EID\\Tugas_Test_EID.csproj|e:\\interview\\tugasaspnet_pid\\tugas_testeid\\tugas_test_eid\\tugas_test_eid\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C539B584-DC46-4C71-A6CF-0F7C96D3C2FB}|Tugas_Test_EID\\Tugas_Test_EID.csproj|solutionrelative:tugas_test_eid\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C539B584-DC46-4C71-A6CF-0F7C96D3C2FB}|Tugas_Test_EID\\Tugas_Test_EID.csproj|e:\\interview\\tugasaspnet_pid\\tugas_testeid\\tugas_test_eid\\tugas_test_eid\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C539B584-DC46-4C71-A6CF-0F7C96D3C2FB}|Tugas_Test_EID\\Tugas_Test_EID.csproj|solutionrelative:tugas_test_eid\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C539B584-DC46-4C71-A6CF-0F7C96D3C2FB}|Tugas_Test_EID\\Tugas_Test_EID.csproj|e:\\interview\\tugasaspnet_pid\\tugas_testeid\\tugas_test_eid\\tugas_test_eid\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C539B584-DC46-4C71-A6CF-0F7C96D3C2FB}|Tugas_Test_EID\\Tugas_Test_EID.csproj|solutionrelative:tugas_test_eid\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C539B584-DC46-4C71-A6CF-0F7C96D3C2FB}|Tugas_Test_EID\\Tugas_Test_EID.csproj|e:\\interview\\tugasaspnet_pid\\tugas_testeid\\tugas_test_eid\\tugas_test_eid\\wwwroot\\js\\cl\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C539B584-DC46-4C71-A6CF-0F7C96D3C2FB}|Tugas_Test_EID\\Tugas_Test_EID.csproj|solutionrelative:tugas_test_eid\\wwwroot\\js\\cl\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C539B584-DC46-4C71-A6CF-0F7C96D3C2FB}|Tugas_Test_EID\\Tugas_Test_EID.csproj|e:\\interview\\tugasaspnet_pid\\tugas_testeid\\tugas_test_eid\\tugas_test_eid\\wwwroot\\js\\cl\\inventaris.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C539B584-DC46-4C71-A6CF-0F7C96D3C2FB}|Tugas_Test_EID\\Tugas_Test_EID.csproj|solutionrelative:tugas_test_eid\\wwwroot\\js\\cl\\inventaris.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C539B584-DC46-4C71-A6CF-0F7C96D3C2FB}|Tugas_Test_EID\\Tugas_Test_EID.csproj|e:\\interview\\tugasaspnet_pid\\tugas_testeid\\tugas_test_eid\\tugas_test_eid\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C539B584-DC46-4C71-A6CF-0F7C96D3C2FB}|Tugas_Test_EID\\Tugas_Test_EID.csproj|solutionrelative:tugas_test_eid\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C539B584-DC46-4C71-A6CF-0F7C96D3C2FB}|Tugas_Test_EID\\Tugas_Test_EID.csproj|e:\\interview\\tugasaspnet_pid\\tugas_testeid\\tugas_test_eid\\tugas_test_eid\\views\\homepage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C539B584-DC46-4C71-A6CF-0F7C96D3C2FB}|Tugas_Test_EID\\Tugas_Test_EID.csproj|solutionrelative:tugas_test_eid\\views\\homepage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C539B584-DC46-4C71-A6CF-0F7C96D3C2FB}|Tugas_Test_EID\\Tugas_Test_EID.csproj|e:\\interview\\tugasaspnet_pid\\tugas_testeid\\tugas_test_eid\\tugas_test_eid\\controllers\\api\\api_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C539B584-DC46-4C71-A6CF-0F7C96D3C2FB}|Tugas_Test_EID\\Tugas_Test_EID.csproj|solutionrelative:tugas_test_eid\\controllers\\api\\api_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "API_Inventaris.cs",
+              "DocumentMoniker": "E:\\Interview\\TugasASPNET_PID\\Tugas_TestEID\\Tugas_Test_EID\\Tugas_Test_EID\\Controllers\\API\\API_Inventaris.cs",
+              "RelativeDocumentMoniker": "Tugas_Test_EID\\Controllers\\API\\API_Inventaris.cs",
+              "ToolTip": "E:\\Interview\\TugasASPNET_PID\\Tugas_TestEID\\Tugas_Test_EID\\Tugas_Test_EID\\Controllers\\API\\API_Inventaris.cs",
+              "RelativeToolTip": "Tugas_Test_EID\\Controllers\\API\\API_Inventaris.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAUwNYAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T15:17:37.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\Interview\\TugasASPNET_PID\\Tugas_TestEID\\Tugas_Test_EID\\Tugas_Test_EID\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Tugas_Test_EID\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\Interview\\TugasASPNET_PID\\Tugas_TestEID\\Tugas_Test_EID\\Tugas_Test_EID\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Tugas_Test_EID\\Properties\\launchSettings.json",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-29T14:13:07.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "inventaris.js",
+              "DocumentMoniker": "E:\\Interview\\TugasASPNET_PID\\Tugas_TestEID\\Tugas_Test_EID\\Tugas_Test_EID\\wwwroot\\js\\cl\\inventaris.js",
+              "RelativeDocumentMoniker": "Tugas_Test_EID\\wwwroot\\js\\cl\\inventaris.js",
+              "ToolTip": "E:\\Interview\\TugasASPNET_PID\\Tugas_TestEID\\Tugas_Test_EID\\Tugas_Test_EID\\wwwroot\\js\\cl\\inventaris.js",
+              "RelativeToolTip": "Tugas_Test_EID\\wwwroot\\js\\cl\\inventaris.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-29T13:11:04.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Interview\\TugasASPNET_PID\\Tugas_TestEID\\Tugas_Test_EID\\Tugas_Test_EID\\Views\\HomePage\\Index.cshtml",
+              "RelativeDocumentMoniker": "Tugas_Test_EID\\Views\\HomePage\\Index.cshtml",
+              "ToolTip": "E:\\Interview\\TugasASPNET_PID\\Tugas_TestEID\\Tugas_Test_EID\\Tugas_Test_EID\\Views\\HomePage\\Index.cshtml",
+              "RelativeToolTip": "Tugas_Test_EID\\Views\\HomePage\\Index.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAB4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T10:50:32.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Interview\\TugasASPNET_PID\\Tugas_TestEID\\Tugas_Test_EID\\Tugas_Test_EID\\Program.cs",
+              "RelativeDocumentMoniker": "Tugas_Test_EID\\Program.cs",
+              "ToolTip": "E:\\Interview\\TugasASPNET_PID\\Tugas_TestEID\\Tugas_Test_EID\\Tugas_Test_EID\\Program.cs",
+              "RelativeToolTip": "Tugas_Test_EID\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T10:34:47.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "API_Login.cs",
+              "DocumentMoniker": "E:\\Interview\\TugasASPNET_PID\\Tugas_TestEID\\Tugas_Test_EID\\Tugas_Test_EID\\Controllers\\API\\API_Login.cs",
+              "RelativeDocumentMoniker": "Tugas_Test_EID\\Controllers\\API\\API_Login.cs",
+              "ToolTip": "E:\\Interview\\TugasASPNET_PID\\Tugas_TestEID\\Tugas_Test_EID\\Tugas_Test_EID\\Controllers\\API\\API_Login.cs",
+              "RelativeToolTip": "Tugas_Test_EID\\Controllers\\API\\API_Login.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwCYAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T10:29:36.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Interview\\TugasASPNET_PID\\Tugas_TestEID\\Tugas_Test_EID\\Tugas_Test_EID\\appsettings.json",
+              "RelativeDocumentMoniker": "Tugas_Test_EID\\appsettings.json",
+              "ToolTip": "E:\\Interview\\TugasASPNET_PID\\Tugas_TestEID\\Tugas_Test_EID\\Tugas_Test_EID\\appsettings.json",
+              "RelativeToolTip": "Tugas_Test_EID\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-29T09:52:09.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "login.js",
+              "DocumentMoniker": "E:\\Interview\\TugasASPNET_PID\\Tugas_TestEID\\Tugas_Test_EID\\Tugas_Test_EID\\wwwroot\\js\\cl\\login.js",
+              "RelativeDocumentMoniker": "Tugas_Test_EID\\wwwroot\\js\\cl\\login.js",
+              "ToolTip": "E:\\Interview\\TugasASPNET_PID\\Tugas_TestEID\\Tugas_Test_EID\\Tugas_Test_EID\\wwwroot\\js\\cl\\login.js",
+              "RelativeToolTip": "Tugas_Test_EID\\wwwroot\\js\\cl\\login.js",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-29T09:46:21.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Interview\\TugasASPNET_PID\\Tugas_TestEID\\Tugas_Test_EID\\Tugas_Test_EID\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Tugas_Test_EID\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Interview\\TugasASPNET_PID\\Tugas_TestEID\\Tugas_Test_EID\\Tugas_Test_EID\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Tugas_Test_EID\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T09:45:23.029Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

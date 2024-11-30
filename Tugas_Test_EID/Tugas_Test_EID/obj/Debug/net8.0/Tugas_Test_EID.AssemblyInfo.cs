@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tugas_Test_EID")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+974f749857811149683357a0b3d2e6280d7bbbb6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tugas_Test_EID")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tugas_Test_EID")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

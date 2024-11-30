@@ -1,0 +1,236 @@
+[
+  {
+    "ContainingType": "Tugas_Test_EID.API_Login",
+    "Method": "Index",
+    "RelativePath": "api/API_Login/handshake",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "post",
+        "Type": "Tugas_Test_EID.POST_Login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tugas_Test_EID.API_Login",
+    "Method": "Register",
+    "RelativePath": "api/API_Login/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "post",
+        "Type": "Tugas_Test_EID.POST_Login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tugas_Test_EID.API_Inventaris",
+    "Method": "AddInventaris",
+    "RelativePath": "api/inventaris/add_inventaris",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "item_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "item_name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "item_desc",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "item_img",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "item_stock",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "item_stock_current",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tugas_Test_EID.API_Inventaris",
+    "Method": "DelInventaris",
+    "RelativePath": "api/inventaris/del_inventaris",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "Tugas_Test_EID.POST_Spc_Inventaris",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tugas_Test_EID.API_Inventaris",
+    "Method": "GetInventaris",
+    "RelativePath": "api/inventaris/get_inventaris",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tugas_Test_EID.API_Inventaris",
+    "Method": "GetSpcInventaris",
+    "RelativePath": "api/inventaris/get_inventaris",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "post",
+        "Type": "Tugas_Test_EID.POST_Spc_Inventaris",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tugas_Test_EID.API_Inventaris",
+    "Method": "UpdInventaris",
+    "RelativePath": "api/inventaris/upd_inventaris",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "item_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "item_name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "item_desc",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "item_img",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "item_stock",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "item_stock_current",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_3",
+    "RelativePath": "secure",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

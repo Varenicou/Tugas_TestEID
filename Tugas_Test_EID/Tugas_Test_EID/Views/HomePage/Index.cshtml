@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+</head>
+<body>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="inventaris" data-bs-toggle="tab" data-bs-target="#inventaris_content" type="button" role="tab" aria-controls="inventaris_content" aria-selected="true">Inventaris</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="transaksi" data-bs-toggle="tab" data-bs-target="#transaksi_content" type="button" role="tab" aria-controls="transaksi_content" aria-selected="false">Transaksi</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="laporan_pos" data-bs-toggle="tab" data-bs-target="#laporan_pos_content" type="button" role="tab" aria-controls="laporan_pos_content" aria-selected="false">Laporan POS</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="laporan_stok" data-bs-toggle="tab" data-bs-target="#laporan_stok_content" type="button" role="tab" aria-controls="laporan_stok_content" aria-selected="false">Laporan Stok</button>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="card">
+            <div class="card-header d-flex justify-content-between">
+                <span class="fs-3">Inventaris</span>
+                <button type="button" class="btn btn-outline-primary" onclick="add_inventaris()">
+                    <i class="bi bi-plus"></i> Tambah
+                </button>
+            </div>
+        </div>
+        <div class="tab-pane fade show active" id="inventaris_content" role="tabpanel" aria-labelledby="inventaris_content" tabindex="0">
+            <table id="table_inventaris" class="table table-sm table-bordered table-vcenter">
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Kode Barang</th>
+                        <th>Nama Barang</th>
+                        <th>Deskripsi</th>
+                        <th>Jumlah Saat ini</th>
+                        <th>Aksi</th>
+                    </tr>
+                </thead>
+                <tbody id="dt_inventaris">
+
+                </tbody>
+            </table>
+        </div>
+        <div class="tab-pane fade" id="transaksi_content" role="tabpanel" aria-labelledby="transaksi_content" tabindex="0">
+            <table id="table_transaksi" class="table table-sm table-bordered table-vcenter">
+                <thead>
+                </thead>
+            </table>
+        </div>
+        <div class="tab-pane fade" id="laporan_pos_content" role="tabpanel" aria-labelledby="laporan_pos_content" tabindex="0">
+
+        </div>
+        <div class="tab-pane fade" id="laporan_stok_content" role="tabpanel" aria-labelledby="laporan_stok_content" tabindex="0">
+
+        </div>
+    </div>
+</body>
+
+<!-- Modal -->
+<div class="modal" id="md_upd_inventaris" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">Pengkinian Data Inventaris</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <input type="hidden" name="item_id" id="frm_item_id">
+            <div class="form-group">
+                <label for="item_name">Nama Barang : <span class="text-danger">*</span></label>
+                <input type="text" name="item_name" id="frm_item_name" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="item_desc">Deskripsi Barang : </label>
+                <textarea name="item_desc" id="frm_item_desc" class="form-control"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="item_img">Gambar Barang : <span class="text-danger">*</span></label>
+                <input type="file" name="item_img" id="frm_item_img" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="item_stock">Stok Barang : <span class="text-danger">*</span></label>
+                <input type="number" name="item_stock" id="frm_item_stock" class="form-control" required>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+            <button type="button" class="btn btn-success" id="btn_submit_inventaris" onclick="submit_upd_inventaris()">Simpan</button>
+        </div>
+        </div>
+    </div>
+</div>
+</html>
+
+<script src="/js/cl/inventaris.js"></script>
