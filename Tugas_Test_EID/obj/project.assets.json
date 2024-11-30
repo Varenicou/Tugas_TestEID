@@ -2957,11 +2957,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Interview\\TugasASPNET_PID\\Tugas_TestEID\\Tugas_Test_EID\\Tugas_Test_EID\\Tugas_Test_EID.csproj",
+      "projectUniqueName": "E:\\Interview\\TugasASPNET_PID\\Tugas_TestEID\\Tugas_Test_EID\\Tugas_Test_EID.csproj",
       "projectName": "Tugas_Test_EID",
-      "projectPath": "E:\\Interview\\TugasASPNET_PID\\Tugas_TestEID\\Tugas_Test_EID\\Tugas_Test_EID\\Tugas_Test_EID.csproj",
+      "projectPath": "E:\\Interview\\TugasASPNET_PID\\Tugas_TestEID\\Tugas_Test_EID\\Tugas_Test_EID.csproj",
       "packagesPath": "C:\\Users\\Varenicou\\.nuget\\packages\\",
-      "outputPath": "E:\\Interview\\TugasASPNET_PID\\Tugas_TestEID\\Tugas_Test_EID\\Tugas_Test_EID\\obj\\",
+      "outputPath": "E:\\Interview\\TugasASPNET_PID\\Tugas_TestEID\\Tugas_Test_EID\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
